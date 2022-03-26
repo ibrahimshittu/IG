@@ -1,20 +1,19 @@
-@import "/variables";
 
 .storyBorder {
   padding: 2px;
   background: linear-gradient(
     200deg,
-    $gradient-one 25%,
-    $gradient-two 50%,
-    $gradient-three 75%,
-    $gradient-four 100%
+    #da3394 25%,
+    #e03c67 50%,
+    #f3753b 75%,
+    #f99b4a 100%
   );
   border-radius: 50%;
 }
 
 .profileIcon {
   border-radius: 50%;
-  border: 2px solid $background-white;
+  border: 2px solid #ffffff;
   display: block;
 
   &:hover {

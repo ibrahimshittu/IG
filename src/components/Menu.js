@@ -10,9 +10,9 @@ function Menu() {
   return (
     <div className="menu">
       <Home className="icon" />
-      <Inbox className="icon" />
+      {/* <Inbox className="icon" />
       <Explore className="icon" />
-      <Notifications className="icon" />
+      <Notifications className="icon" /> */}
       <ProfileIcon iconSize="small" image={image} />
     </div>
   );

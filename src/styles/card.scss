@@ -1,8 +1,7 @@
-@import "/variables";
 
 .card {
-  border: 1px solid $border-color-grey;
-  background-color: $background-white;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
   margin-bottom: 3.5em;
   border-radius: 3px;
 
@@ -49,8 +48,8 @@
     font-size: 0.6em;
     padding-left: 2em;
     padding-bottom: 1em;
-    color: $font-color-secondary;
-    border-bottom: 1px solid $border-color-grey-secondary;
+    color: #8e8e8e;
+    border-bottom: 1px solid #8e8e8e;
   }
 
   .addComment {
@@ -60,11 +59,11 @@
     padding: 1.5em 1.25em;
 
     .commentText {
-      color: $font-color-secondary;
+      color: #8e8e8e;
     }
 
     .postText {
-      color: $link-color-secondary;
+      color: #8e8e8e;
     }
   }
 }
@@ -72,7 +71,7 @@
 @media only screen and (max-width: 640px) {
   .card {
     border: none;
-    background-color: $background-grey;
+    background-color: #fafafa;
     margin-bottom: 0.75em;
 
     .addComment {
